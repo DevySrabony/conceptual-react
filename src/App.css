@@ -1,16 +1,22 @@
 .main-container{
   display: flex;
-  justify-content: space-around;
+  margin: 0 400px;
 }
 
 .cart-container{
   width: 350px;
   box-shadow: 4px 4px 8px gray;
+  margin-top: 15px;
+  border-radius: 15px;
+  text-align: center;
 }
 .card{
   width: 300px;
   text-align: center;
   border: 1px solid grey;
+  margin:15px;
+  padding: 10px;
+  border-radius: 15px;
 }
 .card-img{
   width: 100px;
@@ -19,6 +25,7 @@
 .card-footer{
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .cart-title{
@@ -30,4 +37,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.add-btn{
+  height: 30px;
+  border: 2px solid blueviolet;
+  font-weight: bold;
+  background-color: aquamarine;
 }
